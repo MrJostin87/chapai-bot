@@ -45,16 +45,7 @@ class ChapAIClient(discord.Client):
 bot = ChapAIClient()
 
 
-# 3. Definir tu primer comando de barra: /hola
-@bot.tree.command(
-    name="hola",
-    description="Saluda a ChapAI, tu asistente oficial en La Resistencia",
-)
-async def hola(interaction: discord.Response):  # o interaction: discord.Interaction
-  pass
-
-
-# Corrección limpia para la respuesta de interacción de barra:
+# 3. Definir tu comando de barra: /hola
 @bot.tree.command(
     name="hola",
     description="Saluda a ChapAI, tu asistente oficial en La Resistencia",
