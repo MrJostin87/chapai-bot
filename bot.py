@@ -59,7 +59,7 @@ async def hola(interaction: discord.Response):  # o interaction: discord.Interac
     name="hola",
     description="Saluda a ChapAI, tu asistente oficial en La Resistencia",
 )
-async def hola_command(interaction: discord.Interaction):
+async def hola(interaction: discord.Interaction):
   await interaction.response.send_message(
       "¡Hola! Soy **ChapAI**, tu asistente oficial en La Resistencia 🛡️⚔️."
   )
